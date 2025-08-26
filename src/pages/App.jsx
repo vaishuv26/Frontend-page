@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import App from './App';
+import Products from './Products';
+import Invoices from './Invoices';
+import Statistics from './Statistics';
+import Settings from './Settings';
+import Login from './Login';
 
-import Products from './pages/Products';
-import Invoices from './pages/Invoices';
-import Statistics from './pages/Statistics';
-import Settings from './pages/Settings';
-import Login from './pages/Login';
 
 function Router() {
   return (
